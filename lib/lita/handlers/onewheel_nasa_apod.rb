@@ -12,6 +12,7 @@ module Lita
       def handle_cosmos(response)
         response.reply RestClient::get('https://kpp0tmzh76.execute-api.us-west-2.amazonaws.com/prod/nasaapod')
       end
+    end
 
     Lita.register_handler(OnewheelNasaApod)
   end
