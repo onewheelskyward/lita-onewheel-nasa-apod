@@ -6,7 +6,7 @@ SimpleCov.formatters = [
 ]
 SimpleCov.start { add_filter '/spec/' }
 
-require 'lita-onewheel-nasa-apod'
+require 'lita-onewheel-slack-take-it-back'
 require 'lita/rspec'
 
 # A compatibility mode is provided for older plugins upgrading from Lita 3. Since this plugin

@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
-  spec.name          = 'lita-onewheel-nasa-apod'
+  spec.name          = 'lita-onewheel-slack-take-it-back'
   spec.version       = '0.0.0'
   spec.authors       = ['Andrew Kreps']
   spec.email         = ['andrew.kreps@gmail.com']
-  spec.description   = 'Produces Nasa\'s APOD image.'
-  spec.summary       = 'A great way to inspire your day.'
-  spec.homepage      = 'https://github.com/onewheelskyward/lita-onewheel-nasa-apod'
+  spec.description   = 'Enables a "Take that back" feature on your slack bot.'
+  spec.summary       = "Just in case your bot, you know, says something it shouldn't."
+  spec.homepage      = 'https://github.com/onewheelskyward/lita-onewheel-slack-take-it-back'
   spec.license       = 'MIT'
   spec.metadata      = { 'lita_plugin_type' => 'handler' }
 
@@ -18,11 +18,11 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.3'
   # spec.add_development_dependency 'pry-byebug', '~> 3.1'
-  spec.add_development_dependency 'rake', '~> 10.4'
+  spec.add_development_dependency 'rake', '~> 11'
   spec.add_development_dependency 'rack-test', '~> 0.6'
-  spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'simplecov', '~> 0.10'
+  spec.add_development_dependency 'rspec', '~> 3'
+  spec.add_development_dependency 'simplecov', '~> 0.13'
   spec.add_development_dependency 'coveralls', '~> 0.8'
-  spec.add_development_dependency 'rest-client', '~> 1.8'
+  spec.add_development_dependency 'rest-client', '~> 1'
 
 end
